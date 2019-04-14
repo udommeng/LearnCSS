@@ -1,0 +1,27 @@
+.flexContainer {
+    display: flex;
+}
+
+.flexItem {
+    flex: 1;
+}
+
+.flexStart {
+    justify-content: flex-start;
+}
+
+.buleBackground {
+    background: lightblue;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav a {
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    padding:  0 1em;
+    color: #fff;
+}

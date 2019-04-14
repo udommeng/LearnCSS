@@ -1,0 +1,33 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background: white;
+    border-radius: 8px;
+    padding: 50px 25px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px #ccc;
+}
+.flexContainer {
+    display: flex;
+}
+
+.flexItem{
+    flex : 1;
+}
+
+.marginBottom {
+    margin-bottom: 25px
+}
+
+.entry {
+    border: 1px solid rgba(147,128,108,0.25);
+    padding: 0.5em 0.75em;
+    background-color: rgba(147,128,108,0.1);
+    color: #666;
+}

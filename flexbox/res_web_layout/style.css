@@ -1,0 +1,63 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.flexItem {
+    flex: 1;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.fullHeight {
+    height: 100vh;
+}
+
+.nav{
+    list-style: none;
+}
+
+.nav a {
+    display: block;
+    padding: 0 1em;
+    color: #fff;
+    text-decoration: none;
+}
+.whiteBackGround {
+    background: #fff;
+
+}
+
+.blueBackground {
+    background: lightblue;
+
+}
+
+.main {
+    order: 2;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+
+}
+
+.sidebar {
+    width: 20%;
+    background: #fff;
+    padding: 20px;
+}
+
+.sidebarLeft {
+    order: 1;
+}
+
+.sidebarRight {
+    order: 3;
+}

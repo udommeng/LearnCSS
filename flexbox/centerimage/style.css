@@ -1,0 +1,28 @@
+
+body, html {
+    border:0;
+    padding: 0;
+    margin:  0;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.flexCenter {
+    justify-content: center;
+}
+
+.fullHeight {
+    height: 100vh;  /* vh = view port Height จะสูงจากบน ลง ล่าง เลย */
+}
+
+.itemCenter {
+    align-items: center;
+}
+
+.centerImage {
+    background: url('https://images.unsplash.com/photo-1554519873-94708dc9d0f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60') center;
+    background-size: cover;
+}
+
